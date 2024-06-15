@@ -5,6 +5,16 @@ public class Pessoa {
 	private String nome;
 	
 	private String sobrenome;
+	
+	private String apelido;
+
+	public String getApelido() {
+		return apelido;
+	}
+
+	public void setApelido(String apelido) {
+		this.apelido = apelido;
+	}
 
 	public String getNome() {
 		return nome;
